@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+.main {
+  background-color: aliceblue;
+  min-height: 750px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar {
   display: flex;
-  flex-direction: column;
+  justify-content: end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: cadetblue;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  margin-right: 15px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-bar a:hover {
+  color: orange;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 5px;
+  padding-top: 20px;
+}
+
+.footer {
+  background-color: cadetblue;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+table,form {
+  border-collapse: collapse;
+ margin: 3rem auto;
+  
+}
+
+td,
+th {
+  border: 1px solid;
+  padding: 1rem;
+}
+
+button {
+  width: 5rem;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+.form-field {
+  margin: 1rem auto;
+}
+
+
+input {
+  width: 20rem;
+  padding: 0.2rem;
 }
